@@ -1,11 +1,10 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `A dynamic B.Sc. Computer Science graduate skilled in MERN stack development, including front-end, back-end, and database technologies. Proficient in creating responsive and efficient web applications with a strong focus on quality and innovation. Eager to contribute to challenging projects, continuously learn, and grow as a software developer.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `A motivated and detail-oriented B.Sc. Computer Science graduate with a strong foundation in web development and proficiency in the MERN stack (MongoDB, Express.js, React.js, Node.js). Adept at building responsive, user-friendly web applications and solving complex technical challenges with innovative solutions. Strong knowledge of JavaScript, HTML, CSS, and modern frameworks, complemented by excellent problem-solving and analytical skills. Passionate about continuous learning and eager to contribute to dynamic teams and challenging projects. Quick to adapt to new technologies and committed to delivering high-quality, scalable software solutions that drive success. Enthusiastic about starting a career in software development. `;
 
 export const EDUCATIONS = [
   {
@@ -36,17 +35,17 @@ export const EDUCATIONS = [
 
 export const PROJECTS = [
   {
-    title: "Code Collab Website",
+    title: "AI Galaxy Plugin",
     image: project1,
     description:
-      "Open-Source Repo Finder,Your go-to platform for discovering open-source projects tailored to your skills and interests!",
+      "Documentation for AI Extensions! This guide will help you integrate our AI components into your own projects seamlessly. Our components are designed to be plug-and-play, requiring minimal setup.",
     technologies: ["NEXTJS", "Tailwind CSS", "ExpressJS", "Node.js", "MongoDB"],
   },
   {
-    title: "AI Galaxy Plugin",
+    title: "Code Collab Website",
     image: project2,
     description:
-      "Documentation for AI Extensions! This guide will help you integrate our AI components into your own projects seamlessly. Our components are designed to be plug-and-play, requiring minimal setup.",
+      "Open-Source Repo Finder,Your go-to platform for discovering open-source projects tailored to your skills and interests!",
     technologies: ["NEXTJS", "Tailwind CSS", "ExpressJS", "Node.js", "MongoDB"],
   },
   {
@@ -55,13 +54,6 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["ReactJS", "Tailwind CSS", "Framer Motion"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
 
