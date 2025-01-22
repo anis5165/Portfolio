@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants'
-import Photov2 from '../assets/projects/Photov2.png'
+import Photov2 from '../assets/projects/Photov2'
 import { motion } from "framer-motion"
 
 
