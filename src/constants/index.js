@@ -47,8 +47,8 @@ export const PROJECTS = [
     image: project2,
     description:
       "Documentation for AI Extensions! This guide will help you integrate our AI components into your own projects seamlessly. Our components are designed to be plug-and-play, requiring minimal setup.",
-      technologies: ["NEXTJS", "Tailwind CSS", "ExpressJS", "Node.js", "MongoDB"],
-    },
+    technologies: ["NEXTJS", "Tailwind CSS", "ExpressJS", "Node.js", "MongoDB"],
+  },
   {
     title: "Portfolio Website",
     image: project3,
