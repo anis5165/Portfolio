@@ -1,5 +1,5 @@
 import React from 'react'
-import { Experience } from '../constants'
+import { EXPERIENCE } from '../constants'
 import { motion } from 'framer-motion';
 
 const Education = () => {
@@ -11,7 +11,7 @@ const Education = () => {
                 transition={{ duration: 0.5 }}
                 className='my-20 text-center text-4xl'>Experience</motion.h1>
             <div >
-                {Experience.map((experience, index) => (
+                {EXPERIENCE.map((experience, index) => (
                     <div key={index} className='mb-8 flex flex-wrap lg:justify-center'>
                         <motion.div
                             whileInView={{ opacity: 1, x: 0 }}

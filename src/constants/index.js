@@ -34,7 +34,7 @@ export const EDUCATIONS = [
   },
 ];
 
-export const Experience = [
+export const EXPERIENCE = [
   {
     year: "Feb 2025 - May 2025",
     degree: "MERN Stack Web Dev Intern",
