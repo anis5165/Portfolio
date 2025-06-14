@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import quickcast from "../assets/projects/quickcast.png";
 
 export const HERO_CONTENT = `A dynamic B.Sc. Computer Science graduate skilled in MERN stack development, including front-end, back-end, and database technologies. Proficient in creating responsive and efficient web applications with a strong focus on quality and innovation. Eager to contribute to challenging projects, continuously learn, and grow as a software developer.`;
 
@@ -33,23 +34,43 @@ export const EDUCATIONS = [
   },
 ];
 
+export const Experience = [
+  {
+    year: "Feb 2025 - May 2025",
+    degree: "MERN Stack Web Dev Intern",
+    place: "Digipodium",
+    description: `Completed a 4-month internship at Digipodium, gaining hands-on experience in MERN stack development, enhancing skills in building full-stack web applications, and collaborating on real-world projects.`,
+  }
+];
+
 export const PROJECTS = [
   {
+    title: "QuickCast",
+    link: "https://quick-cast-beta.vercel.app/",
+    image: quickcast,
+    description:
+    "A real-time presentation system with content sharing, live polls, and chat features to enhance accessibility and audience interaction across devices",
+    technologies: ["NEXTJS", "Tailwind CSS", "ExpressJS", "Node.js", "MongoDB"],
+  },
+  {
     title: "AI Galaxy Plugin",
+    link: "https://ai-plugin-galaxy.vercel.app/",
     image: project1,
     description:
-      "Documentation for AI Extensions! This guide will help you integrate our AI components into your own projects seamlessly. Our components are designed to be plug-and-play, requiring minimal setup.",
+    "Documentation for AI Extensions! This guide will help you integrate our AI components into your own projects seamlessly. Our components are designed to be plug-and-play, requiring minimal setup.",
     technologies: ["NEXTJS", "Tailwind CSS", "ExpressJS", "Node.js", "MongoDB"],
   },
   {
     title: "Code Collab Website",
+    link: "/",
     image: project2,
     description:
-      "Open-Source Repo Finder,Your go-to platform for discovering open-source projects tailored to your skills and interests!",
+    "Open-Source Repo Finder,Your go-to platform for discovering open-source projects tailored to your skills and interests!",
     technologies: ["NEXTJS", "Tailwind CSS", "ExpressJS", "Node.js", "MongoDB"],
   },
   {
     title: "Portfolio Website",
+    link: "/",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
