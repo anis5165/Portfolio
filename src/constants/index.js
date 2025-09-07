@@ -80,6 +80,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Ajmer Basti Jind, Haryana 126102",
-  phoneNo: "+91 97297 26784",
+  phoneNo: "+91 97297-06784",
   email: "anishkumargvm02@gmail.com",
 };
