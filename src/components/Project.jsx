@@ -25,7 +25,19 @@ const Project = () => {
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ duration: 1.5 }}
                             className='w-full mb-2 max-w-xl lg:w-3/4'>
-                            <a href={project.link} target='_blank' className='mb-2 font-semibold'>{project.title}</a>
+                            <h1 className='mb-2 font-semibold'>
+                                {project.title}
+                                <span>
+                                    <a
+                                        href={project.link}
+                                        target='_blank'
+                                        rel='noopener noreferrer'
+                                        className='ml-5 inline-block rounded bg-[#171717] px-4 py-1 text-white font-medium shadow transition hover:bg-[#2d2d2d] focus:outline-none focus:ring-2 focus:ring-purple-400'
+                                    >
+                                        View
+                                    </a>
+                                </span>
+                            </h1>
                             <p className='mb-4 text-neutral-400'>{project.description}</p>
                             {project.technologies.map((tech, index) => (
                                 <span key={index} className='mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>

@@ -1,11 +1,17 @@
-import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
 import quickcast from "../assets/projects/quickcast.png";
+import BGMISensiFix from "../assets/projects/bgmi.png";
+import sopify from "../assets/projects/sopify.png";
+import aiplugin from "../assets/projects/aiplugin.png";
+import portfolio from "../assets/projects/portfolio.png";
+import codecollab from "../assets/projects/codecollab.png";
+import { code } from "framer-motion/client";
 
-export const HERO_CONTENT = `A dynamic B.Sc. Computer Science graduate skilled in MERN stack development, including front-end, back-end, and database technologies. Proficient in creating responsive and efficient web applications with a strong focus on quality and innovation. Eager to contribute to challenging projects, continuously learn, and grow as a software developer.`;
+export const HERO_CONTENT = `M.Sc Computer Science student and passionate MERN stack developer with hands-on internship experience at 'Digipodium'. I specialize in building dynamic web applications using 
+Next.js, React.js, and MongoDB. My portfolio showcases diverse projects, including an AI-powered tool using the Gemini API and a real-time presentation system, reflecting my passion for creating innovative, real-world solutions.`;
 
-export const ABOUT_TEXT = `A motivated and detail-oriented B.Sc. Computer Science graduate with a strong foundation in web development and proficiency in the MERN stack (MongoDB, Express.js, React.js, Node.js). Adept at building responsive, user-friendly web applications and solving complex technical challenges with innovative solutions. Strong knowledge of JavaScript, HTML, CSS, and modern frameworks, complemented by excellent problem-solving and analytical skills. Passionate about continuous learning and eager to contribute to dynamic teams and challenging projects. Quick to adapt to new technologies and committed to delivering high-quality, scalable software solutions that drive success. Enthusiastic about starting a career in software development.`;
+export const ABOUT_TEXT = `A motivated and detail-oriented M.Sc Computer Science student with practical experience in full-stack web development. During my MERN Stack internship at 'Digipodium', I successfully mentored over 30 students in developing their final year projects and built more than 8 projects myself. I am proficient in developing applications using technologies like - 
+Next.js, React.js, Express.js, and MongoDB. My project work includes creating an AI-powered web app with the Gemini API and a real-time presentation system. I have also presented a research paper on IoT security at a national science and technology conference. I am eager to leverage my skills to contribute to innovative and challenging projects.`;
 
 export const EDUCATIONS = [
   {
@@ -45,6 +51,14 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
+    title: "BGMI Sensi Fix",
+    link: "https://bgmi-sensi-fix.vercel.app/",
+    image: BGMISensiFix,
+    description:
+    "This is an AI-powered web application designed to generate optimal sensitivity codes for Battlegrounds Mobile India (BGMI) players. Leveraging the Gemini API, the tool creates personalized settings based on user preferences to help enhance in-game aiming and performance.",
+    technologies: ["NEXTJS", "Tailwind CSS", "Gemini API"],
+  },
+  {
     title: "QuickCast",
     link: "https://quick-cast-beta.vercel.app/",
     image: quickcast,
@@ -55,7 +69,15 @@ export const PROJECTS = [
   {
     title: "AI Galaxy Plugin",
     link: "https://ai-plugin-galaxy.vercel.app/",
-    image: project1,
+    image: aiplugin,
+    description:
+    "Documentation for AI Extensions! This guide will help you integrate our AI components into your own projects seamlessly. Our components are designed to be plug-and-play, requiring minimal setup.",
+    technologies: ["NEXTJS", "Tailwind CSS", "ExpressJS", "Node.js", "MongoDB"],
+  },
+  {
+    title: " SOPify - Document Activity Recorder",
+    link: "https://sopify-five.vercel.app/",
+    image: sopify,
     description:
     "Documentation for AI Extensions! This guide will help you integrate our AI components into your own projects seamlessly. Our components are designed to be plug-and-play, requiring minimal setup.",
     technologies: ["NEXTJS", "Tailwind CSS", "ExpressJS", "Node.js", "MongoDB"],
@@ -63,7 +85,7 @@ export const PROJECTS = [
   {
     title: "Code Collab Website",
     link: "/",
-    image: project2,
+    image: codecollab,
     description:
     "Open-Source Repo Finder,Your go-to platform for discovering open-source projects tailored to your skills and interests!",
     technologies: ["NEXTJS", "Tailwind CSS", "ExpressJS", "Node.js", "MongoDB"],
@@ -71,7 +93,7 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     link: "/",
-    image: project3,
+    image: portfolio,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["ReactJS", "Tailwind CSS", "Framer Motion"],
