@@ -1,4 +1,3 @@
-import project2 from "../assets/projects/project-2.jpg";
 import quickcast from "../assets/projects/quickcast.png";
 import BGMISensiFix from "../assets/projects/bgmi.png";
 import sopify from "../assets/projects/sopify.png";
@@ -79,7 +78,7 @@ export const PROJECTS = [
     link: "https://sopify-five.vercel.app/",
     image: sopify,
     description:
-    "Documentation for AI Extensions! This guide will help you integrate our AI components into your own projects seamlessly. Our components are designed to be plug-and-play, requiring minimal setup.",
+    "A web-based extension and website designed to automate the creation of Standard Operating Procedures (SOPs). The tool streamlines documentation by capturing screenshots, recording user activity, and allowing for in-app document editing and export.",
     technologies: ["NEXTJS", "Tailwind CSS", "ExpressJS", "Node.js", "MongoDB"],
   },
   {
