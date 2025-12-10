@@ -10,9 +10,9 @@ export const HERO_CONTENT = `M.Sc Computer Science student and passionate MERN s
 Next.js, React.js, and MongoDB. My portfolio showcases diverse projects, including an AI-powered tool using the Gemini API and a real-time presentation system, reflecting my passion for creating innovative, real-world solutions.`;
 
 export const ABOUT_TEXT = `I am a motivated and detail-oriented M.Sc. Computer Science student with hands-on experience in full-stack web development. During my MERN Stack internship at Digipodium, I mentored over 30 students on their final-year projects and independently built more than eight full-stack applications. I specialize in modern web technologies such as Next.js, React.js, Express.js, and MongoDB.
-<br />
+
 My project portfolio includes an AI-powered web application integrated with the Gemini API and a real-time presentation system designed for seamless collaboration. I have also presented a research paper on IoT security at a national science and technology conference.
-<br />
+
 In addition to my academic and internship experience, I work as a freelance developer, helping clients build efficient, scalable, and user-focused digital solutions. I am eager to apply my skills to innovative and challenging projects in a dynamic environment.`;
 
 export const EDUCATIONS = [
