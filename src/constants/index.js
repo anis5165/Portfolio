@@ -41,6 +41,12 @@ export const EDUCATIONS = [
 
 export const EXPERIENCE = [
   {
+    year: "Oct 2025 - Present",
+    degree: "Junior Web Developer",
+    place: "Innovative Modern Engineer",
+    description: `Working as a Junior Web Developer at Innovative Modern Engineer, contributing to the development and maintenance of web applications, collaborating with cross-functional teams, and enhancing user experiences through innovative solutions.`,
+  },
+  {
     year: "Feb 2025 - May 2025",
     degree: "MERN Stack Web Dev Intern",
     place: "Digipodium",
